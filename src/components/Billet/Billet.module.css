@@ -1,0 +1,19 @@
+.billet {
+  padding: 20px;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  display: inline-block;
+  text-align: center;
+  background-color: #e6ffe6;
+}
+
+.billet h3 {
+  margin-bottom: 20px;
+  color: #28a745;
+}
+
+.billet p {
+  margin-top: 15px;
+  font-size: 1.1em;
+  color: #333;
+}

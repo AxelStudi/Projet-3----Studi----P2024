@@ -1,0 +1,95 @@
+.cartContainer {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.cartContainer h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.cartList {
+  list-style: none;
+  padding: 0;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+}
+
+.itemDetails {
+  flex: 1;
+}
+
+.itemDetails h3 {
+  margin: 0 0 10px 0;
+}
+
+.removeButton {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.removeButton:hover {
+  background-color: #e04343;
+}
+
+.totalSection {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.totalSection h3 {
+  margin-bottom: 10px;
+}
+
+.checkoutButton {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease;
+}
+
+.checkoutButton:hover {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.billetContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.continueButton {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.continueButton:hover {
+  background-color: #0056b3;
+}
