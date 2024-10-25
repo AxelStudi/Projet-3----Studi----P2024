@@ -4,6 +4,12 @@ PS : Soyez gentil, le projet à été fait en quelques heures...
 
 ---
 
+/!\ Avant d'aller plus loin : Pour executer ce projet il y aura besoin de **modifier certains éléments dans la base de données (BDD)**. Initialement, elle était sur Docker, elle fût exportée mais pour des raisons de sécurité, elle a été réinitialisé.
+
+Pour la partie **Frontend** veuillez faire les commandes suivantes : `cd/emplacement_du_projet/jo2024` puis source `/Users/vous/emplacement/jo-2024/venv/bin/activate` enfin, vous pouvez faire `npm install` et `npm start`
+Pour la partie **Backend** veuillez faire les commandes suivantes : `cd/emplacement_du_projet/jo2024` puis source `/Users/vous/emplacement/jo-2024/venv/bin/activate`, `cd backend`, `python manage.py migrate` enfin, vous pouvez faire `python manage.py runserver`
+
+
 
 ## 📄 Documentation Technique
 
