@@ -471,46 +471,7 @@ INSERT INTO public.api_offer VALUES (3, 'Famille', 'Accès pour une famille de q
 -- Data for Name: auth_permission; Type: TABLE DATA; Schema: public; Owner: jo2024user
 --
 
-INSERT INTO public.auth_permission VALUES (1, 'Can add permission', 1, 'add_permission');
-INSERT INTO public.auth_permission VALUES (2, 'Can change permission', 1, 'change_permission');
-INSERT INTO public.auth_permission VALUES (3, 'Can delete permission', 1, 'delete_permission');
-INSERT INTO public.auth_permission VALUES (4, 'Can view permission', 1, 'view_permission');
-INSERT INTO public.auth_permission VALUES (5, 'Can add group', 2, 'add_group');
-INSERT INTO public.auth_permission VALUES (6, 'Can change group', 2, 'change_group');
-INSERT INTO public.auth_permission VALUES (7, 'Can delete group', 2, 'delete_group');
-INSERT INTO public.auth_permission VALUES (8, 'Can view group', 2, 'view_group');
-INSERT INTO public.auth_permission VALUES (9, 'Can add user', 3, 'add_user');
-INSERT INTO public.auth_permission VALUES (10, 'Can change user', 3, 'change_user');
-INSERT INTO public.auth_permission VALUES (11, 'Can delete user', 3, 'delete_user');
-INSERT INTO public.auth_permission VALUES (12, 'Can view user', 3, 'view_user');
-INSERT INTO public.auth_permission VALUES (13, 'Can add content type', 4, 'add_contenttype');
-INSERT INTO public.auth_permission VALUES (14, 'Can change content type', 4, 'change_contenttype');
-INSERT INTO public.auth_permission VALUES (15, 'Can delete content type', 4, 'delete_contenttype');
-INSERT INTO public.auth_permission VALUES (16, 'Can view content type', 4, 'view_contenttype');
-INSERT INTO public.auth_permission VALUES (17, 'Can add offer', 5, 'add_offer');
-INSERT INTO public.auth_permission VALUES (18, 'Can change offer', 5, 'change_offer');
-INSERT INTO public.auth_permission VALUES (19, 'Can delete offer', 5, 'delete_offer');
-INSERT INTO public.auth_permission VALUES (20, 'Can view offer', 5, 'view_offer');
-INSERT INTO public.auth_permission VALUES (21, 'Can add order', 6, 'add_order');
-INSERT INTO public.auth_permission VALUES (22, 'Can change order', 6, 'change_order');
-INSERT INTO public.auth_permission VALUES (23, 'Can delete order', 6, 'delete_order');
-INSERT INTO public.auth_permission VALUES (24, 'Can view order', 6, 'view_order');
-INSERT INTO public.auth_permission VALUES (25, 'Can add order item', 7, 'add_orderitem');
-INSERT INTO public.auth_permission VALUES (26, 'Can change order item', 7, 'change_orderitem');
-INSERT INTO public.auth_permission VALUES (27, 'Can delete order item', 7, 'delete_orderitem');
-INSERT INTO public.auth_permission VALUES (28, 'Can view order item', 7, 'view_orderitem');
-INSERT INTO public.auth_permission VALUES (29, 'Can add ticket', 8, 'add_ticket');
-INSERT INTO public.auth_permission VALUES (30, 'Can change ticket', 8, 'change_ticket');
-INSERT INTO public.auth_permission VALUES (31, 'Can delete ticket', 8, 'delete_ticket');
-INSERT INTO public.auth_permission VALUES (32, 'Can view ticket', 8, 'view_ticket');
-INSERT INTO public.auth_permission VALUES (33, 'Can add log entry', 9, 'add_logentry');
-INSERT INTO public.auth_permission VALUES (34, 'Can change log entry', 9, 'change_logentry');
-INSERT INTO public.auth_permission VALUES (35, 'Can delete log entry', 9, 'delete_logentry');
-INSERT INTO public.auth_permission VALUES (36, 'Can view log entry', 9, 'view_logentry');
-INSERT INTO public.auth_permission VALUES (37, 'Can add session', 10, 'add_session');
-INSERT INTO public.auth_permission VALUES (38, 'Can change session', 10, 'change_session');
-INSERT INTO public.auth_permission VALUES (39, 'Can delete session', 10, 'delete_session');
-INSERT INTO public.auth_permission VALUES (40, 'Can view session', 10, 'view_session');
+
 
 
 --
